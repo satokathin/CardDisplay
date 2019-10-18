@@ -1,0 +1,73 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### bd ###
+*.db
+
+### log ###
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/src/main/CardFrontend/dist
+/src/main/CardFrontend/tmp
+/src/main/CardFrontend/out-tsc
+
+# dependencies
+/src/main/CardFrontend/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+/src/main/CardFrontend/npm-debug.log
+/src/main/CardFrontend/yarn-error.log
+/src/main/CardFrontend/testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
